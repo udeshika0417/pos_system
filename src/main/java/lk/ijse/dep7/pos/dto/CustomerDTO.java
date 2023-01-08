@@ -1,17 +1,17 @@
-package lk.ijse.dep7.pos;
+package lk.ijse.dep7.pos.dto;
 
 import java.io.Serializable;
 
 //This should follow bean spec
-public class Customer implements Serializable {
+public class CustomerDTO implements Serializable {
     String id;
     String name;
     String address;
 
-    public Customer() {
+    public CustomerDTO() {
     }
 
-    public Customer(String id, String name, String address) {
+    public CustomerDTO(String id, String name, String address) {
         this.id = id;
         this.name = name;
         this.address = address;
